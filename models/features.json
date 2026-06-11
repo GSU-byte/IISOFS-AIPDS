@@ -1,0 +1,17 @@
+[
+  "url_length",
+  "num_dots",
+  "num_hyphens",
+  "num_digits",
+  "has_ip",
+  "has_at_symbol",
+  "uses_https",
+  "suspicious_words_count",
+  "brand_in_subdomain",
+  "domain_age_days",
+  "external_links_ratio",
+  "forms_count",
+  "popup_count",
+  "ssl_valid",
+  "redirect_count"
+]

@@ -1,0 +1,60 @@
+{
+  "accuracy": 0.9606,
+  "f1": 0.9585,
+  "roc_auc": 0.9538,
+  "confusion_matrix": [
+    [
+      167,
+      6
+    ],
+    [
+      7,
+      150
+    ]
+  ],
+  "classification_report": {
+    "legit": {
+      "precision": 0.9597701149425287,
+      "recall": 0.9653179190751445,
+      "f1-score": 0.962536023054755,
+      "support": 173.0
+    },
+    "phishing": {
+      "precision": 0.9615384615384616,
+      "recall": 0.9554140127388535,
+      "f1-score": 0.9584664536741214,
+      "support": 157.0
+    },
+    "accuracy": 0.9606060606060606,
+    "macro avg": {
+      "precision": 0.9606542882404951,
+      "recall": 0.960365965906999,
+      "f1-score": 0.9605012383644382,
+      "support": 330.0
+    },
+    "weighted avg": {
+      "precision": 0.9606114192321088,
+      "recall": 0.9606060606060606,
+      "f1-score": 0.9605998945918476,
+      "support": 330.0
+    }
+  },
+  "rows": 1500,
+  "features": [
+    "url_length",
+    "num_dots",
+    "num_hyphens",
+    "num_digits",
+    "has_ip",
+    "has_at_symbol",
+    "uses_https",
+    "suspicious_words_count",
+    "brand_in_subdomain",
+    "domain_age_days",
+    "external_links_ratio",
+    "forms_count",
+    "popup_count",
+    "ssl_valid",
+    "redirect_count"
+  ]
+}
