@@ -69,7 +69,7 @@ http://sber-login-secure.top/verify/account?session=932811
 - ROC-AUC;
 - Confusion Matrix.
 
-## Почему проект норм для GitHub
+## Почему проект норм
 
 - есть понятная ML-задача;
 - есть датасет;
